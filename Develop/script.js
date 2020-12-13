@@ -1,5 +1,8 @@
 // Assignment code here
-
+function PassPrompt () {
+  var PassPrompt = alert("Must Choose Password between 8 - 128 Characters");
+  alert (PassPrompt);
+}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
