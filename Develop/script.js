@@ -1,3 +1,7 @@
+// Get references to the #generate element
+var generateBtn = document.querySelector("#generate");
+
+
 // Assignment code here
 function generatePassword () {
 
@@ -38,14 +42,14 @@ function generatePassword () {
     
     passwordGen.push(userchoices[Math.floor(Math.random()*userchoices.length)]);
 
+      
   }
 
-  console.log(passwordGen)
+  return passwordGen.join("")
 
 }
 
-// Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
+
 
 // Write password to the #password input
 function writePassword() {
