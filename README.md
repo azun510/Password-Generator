@@ -1,1 +1,4 @@
 # Password Generator Starter Code
+I was tasked with a block of incomplete code and create a live password generator. The password generator would consist of a user inputting whether or not they would like to include special characters, uppercase letters, lowercase letters or numbers. The length of the password would vary from 8-128 characters that can be decided by the user through various prompts. The code was created through javascript and limited html. 
+
+<a href = "https://azun510.github.io/Password-Generator/" target="_blank" rel="noreferrer noopener">https://azun510.github.io/Password-Generator/ </a>
